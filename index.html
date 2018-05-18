@@ -10,8 +10,11 @@
 
     <title>Interactive Stack Example</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="css/full.css" rel="stylesheet">
@@ -20,16 +23,16 @@
 
   <body>
   <div class="container">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <center><a class="navbar-brand" href="#">A Stack Data Structure Interactive Example</a>
-    </nav></center>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Interactive Stack Example</a>
+    </nav>
 
   <div class = newContainer>
     <h4 class="coolTitle" id="padding">
     Enter the items you'd like to push to the stack</h4>
-	<center><input type="text" placeholder="enter items"    id="userinput">
+	<center><input type="text" placeholder="enter up to five items" id="userinput">
 	<button id="push">Push()</button></center>
 
 <!--
@@ -44,6 +47,7 @@
   <center><p style="clear:both"><br>Above are
     a few of the most common stack operations</p>
   </center>
+
 <!--
     list is generated in script.js from the
     createListElementItem() function
@@ -66,8 +70,8 @@
 
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="javascript.js"></script>
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
   </body>

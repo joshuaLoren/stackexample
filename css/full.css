@@ -5,12 +5,13 @@
  */
 
 body {
-  background-color: coral;
+  background-color: gray;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
 
 #push{
   margin-top:10px;
