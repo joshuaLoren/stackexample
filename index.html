@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Interactive Stack Example</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/full.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <center><a class="navbar-brand" href="#">A Stack Data Structure Interactive Example</a>
+    </nav></center>
+
+  <div class = newContainer>
+    <h4 class="coolTitle" id="padding">
+    Enter the items you'd like to push to the stack</h4>
+	<center><input type="text" placeholder="enter items"    id="userinput">
+	<button id="push">Push()</button></center>
+
+<!--
+    Here are our buttons to perform stack operations
+-->
+  <div class="btn-group" id="center">
+    <button class="button" id="pop">Pop()</button>
+    <button class="button" id="peek">Peek()</button>
+    <button class="button" id="isEmpty">isEmpty()</button>
+  </div>
+
+  <center><p style="clear:both"><br>Above are
+    a few of the most common stack operations</p>
+  </center>
+<!--
+    list is generated in script.js from the
+    createListElementItem() function
+-->
+	<ul id = "list"></ul>
+
+  <div class="jumbotron">
+
+  <p class="lead">Stacks</p>
+  <hr class="my-4">
+  <p>In computer science, a stack is an abstract data type that serves as a collection of elements,
+    with two principal operations: push, which adds an element to the collection, and. pop,
+    which removes the most recently added element that was not yet removed</p>
+  <p class="lead">
+
+  </p>
+</div>
+</div>
+    <!-- Page Content -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
