@@ -9,44 +9,37 @@
     <meta name="author" content="">
 
     <title>Interactive Stack Example</title>
-
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+    <!-- grab bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="css/full.css" rel="stylesheet">
 
   </head>
 
   <body>
-  <div class="container">
-    <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Interactive Stack Example</a>
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        Interactice Stack Example
+      </a>
     </nav>
 
-  <div class = newContainer>
-    <h4 class="coolTitle" id="padding">
-    Enter the items you'd like to push to the stack</h4>
-	<center><input type="text" placeholder="enter up to five items" id="userinput">
-	<button id="push">Push()</button></center>
+
+   <div class = newContainer>
+     <h4 class="coolTitle" id="padding">
+     Enter the items you'd like to push to the stack</h4>
+	 <center><input type="text" placeholder="enter up to five items" id="userinput">
+	 <button id="push">Push()</button></center>
 
 <!--
-    Here are our buttons to perform stack operations
+    Here are the buttons to perform stack operations
 -->
   <div class="btn-group" id="center">
     <button class="button" id="pop">Pop()</button>
     <button class="button" id="peek">Peek()</button>
     <button class="button" id="isEmpty">isEmpty()</button>
   </div>
-
-  <center><p style="clear:both"><br>Above are
-    a few of the most common stack operations</p>
-  </center>
 
 <!--
     list is generated in script.js from the
@@ -64,15 +57,15 @@
   <p class="lead">
 
   </p>
-</div>
-</div>
-    <!-- Page Content -->
+</div> <!-- close jumbotron -->
+</div> <!-- close newContainer -->
 
-    <!-- Bootstrap core JavaScript -->
+    <!-- Custom javascript -->
     <script type="text/javascript" src="javascript.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   </body>
 
